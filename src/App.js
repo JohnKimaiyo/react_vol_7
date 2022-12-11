@@ -8,6 +8,7 @@ import Myname from "./component/Mycount";
 import Form from "./component/Form";
 import Users from "./component/Users";
 import Event from "./component/Event";
+import Range from "./component/Range";
 function App() {
   return (
     <div className="App">
@@ -20,7 +21,7 @@ function App() {
       <Myname />
       <Form />
       <Users />
-
+      <Range />
       <Event />
     </div>
   );
